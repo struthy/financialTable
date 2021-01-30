@@ -29,12 +29,6 @@ import VueAxios from "vue-axios";
 
 Vue.use(VueAxios, axios);
 
-Array.prototype.unique = function() {
-  return this.filter(function(value, index, self) {
-    return self.indexOf(value) === index;
-  });
-};
-
 export default {
   name: "App",
 
@@ -43,7 +37,6 @@ export default {
       items: [],
       currentSort: "Asset Class",
       currentSortDir: "asc",
-      isNegative: false,
     };
   },
 
