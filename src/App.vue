@@ -43,7 +43,7 @@ export default {
   created() {
     var _this = this;
     axios
-      .get("http://localhost:8080/sampleData.json")
+      .get("https://struthy.github.io/financialTable/dist/sampleData.json")
       .then((response) => {
         _this.items = response.data;
       })
