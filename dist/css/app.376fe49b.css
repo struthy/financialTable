@@ -1,0 +1,1 @@
+table{width:100%;border-collapse:collapse}td,th,tr{text-align:left;border:1px solid #ccc;padding:10px}th{background-color:#333;color:#fff}th:hover{cursor:pointer;background-color:#000}tr.Macro{background-color:#fff}tr.Equities{background-color:#b0c4de}tr.Credit{background-color:#20b2aa}td.negative{color:red}td.positive{color:#00f}
